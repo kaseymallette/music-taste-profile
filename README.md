@@ -25,8 +25,32 @@ I wanted to understand my own music taste algorithmically — not through Spotif
 | `02_knn_playlist_generator` | Nearest neighbors | Seed song retrieval and playlist generation |
 | `03_partition_generator` | K-means partitioning | Automated playlist splitting with silhouette-optimized k selection |
 
-
-
 ## Results
+
+### Library composition
+
+The library contained **1,046 unique artists** across 2,309 songs.
+
+| Playlist | Unique Artists |
+|----------|----------------|
+| Liked Songs | 618 |
+| Rap/R&B | 182 |
+| Alternative | 152 |
+| Rock | 144 |
+| Pop | 141 |
+
+**Top 5 artists by song count:**
+
+| Artist | Songs |
+|--------|-------|
+| Eminem | 20 |
+| The Neighbourhood | 20 |
+| Matt Maeson | 20 |
+| Florence + The Machine | 20 |
+| Maroon 5 | 18 |
+
+![Distribution of Song Count by Artist by Playlist](images/song_count_by_artist.png)
+
+*Figure 1: Artist frequency follows a long-tail distribution across all playlists — most artists contribute only 1–2 songs, with a small number contributing 10+.*
 
 ## Discussion 
