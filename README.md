@@ -79,7 +79,7 @@ The library skews heavily toward 2000s–2010s music, with the 2010s containing 
 
 ### Temporal distribution by era
 
-The library reflects three distinct eras of music acquisition:
+Looking at music released in the last 30 years, the library reflects three distinct eras of music acquisition:
 
 | Era | Years | Songs | Avg/Year | Range |
 |-----|-------|-------|----------|-------|
@@ -89,6 +89,24 @@ The library reflects three distinct eras of music acquisition:
 
 ![Songs by Release Year across Eras](images/song_count_by_year.png)
 
-*Figure 4: Song count by release year, segmented by acquisition era. Average songs per year doubles from CD to iTunes, then continues climbing in the Spotify era.*
+*Figure 4: Song count by release year, segmented by acquisition era. Average songs per year increases from CD to iTunes, then continues climbing in the Spotify era.*
+
+### Popularity distribution
+
+Spotify's popularity score ranges 0–100, with higher values indicating more recent and frequent streams.
+
+| Stat | Value |
+|------|-------|
+| Mean | 55.6 |
+| Std | 20.4 |
+| Min | 0 |
+| 25% | 43 |
+| 50% | 59 |
+| 75% | 71 |
+| Max | 98 |
+
+![Song Popularity Distribution by Playlist](images/song_popularity_dist.png)
+
+*Figure 5: Popularity distributions by playlist. Pop and Rock skew higher (peaking ~70), while Alternative has a secondary mode near 0 — likely deeper cuts or older tracks.*
 
 ## Discussion 
