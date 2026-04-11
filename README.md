@@ -127,4 +127,16 @@ Based on the distributions, I excluded Speech, Live, and Time Signature from fur
 
 *Figure 8: PCA variance explained. Six components capture 90% of the variance; PC1 alone accounts for ~28%. PCA was exploratory — clustering used the original features.*
 
+### KNN playlist generator
+
+Using seed songs, the KNN approach retrieved similar tracks by audio feature distance. Example playlists were generated for hip hop and alternative.
+
+![KNN Playlist: Alternative](images/knn_playlist_alternative.png)
+
+*Figure 9: KNN-generated alternative playlist. Seeds shown in red; retrieved tracks in blue.*
+
+![KNN Playlist: Hip Hop](images/knn_playlist_hip_hop.png)
+
+*Figure 10: KNN-generated hip hop playlist.*
+
 ## Discussion 
