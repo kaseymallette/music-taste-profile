@@ -57,7 +57,7 @@ The library contained **1,046 unique artists** across 2,309 songs.
 
 ### Temporal distribution
 
-The library skews heavily toward 2000s–2010s music, with the 2010s containing the most songs.
+The library skews heavily toward 2000s–2010s music, with the 2010s containing the most songs. 
 
 | Decade | Songs |
 |--------|-------|
@@ -75,6 +75,20 @@ The library skews heavily toward 2000s–2010s music, with the 2010s containing 
 
 ![Song Count by Decade: Liked Songs](images/song_count_by_decade_liked_songs.png)
 
-*Figure 3: Liked Songs by decade mirrors the overall distribution — peak in 2010s, strong 2000s and 2020s presence.*
+*Figure 3: Liked Songs by decade — peak in 2010s, with the 2020s (only halfway complete) nearly surpassing the entire 2000s.*
+
+### Temporal distribution by era
+
+The library reflects three distinct eras of music acquisition:
+
+| Era | Years | Songs | Avg/Year | Range |
+|-----|-------|-------|----------|-------|
+| CD Era | 1995–2005 | 426 | 38.7 | 10–74 |
+| iTunes Era | 2006–2014 | 701 | 77.9 | 62–94 |
+| Spotify Era | 2015–2025 | 942 | 85.6 | 43–123 |
+
+![Songs by Release Year across Eras](images/song_count_by_year.png)
+
+*Figure 4: Song count by release year, segmented by acquisition era. Average songs per year doubles from CD to iTunes, then continues climbing in the Spotify era.*
 
 ## Discussion 
