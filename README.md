@@ -11,6 +11,8 @@ I wanted to understand my own music taste algorithmically — not through Spotif
 
 `BPM` · `Valence` · `Dance` · `Energy` · `Acoustic` · `Loud (Db)` · `Speech` · `Live` · `Time Signature` · `Album Year` · `Popularity`
 
+## Methods
+
 **Two approaches:**
 
 1. **Nearest neighbors** — given a seed song, find similar tracks by audio feature distance. This answers: *"I like this song, what else sounds like it?"*
@@ -24,7 +26,6 @@ I wanted to understand my own music taste algorithmically — not through Spotif
 | `03_partition_generator` | K-means partitioning | Automated playlist splitting with silhouette-optimized k selection |
 
 
-## Methods 
 
 ## Results
 
