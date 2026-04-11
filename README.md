@@ -13,6 +13,8 @@ I wanted to understand my own music taste algorithmically — not through Spotif
 
 ## Methods
 
+**Data preprocessing:** To prevent any single artist from dominating the clustering, I capped artist representation at 20 songs (approximately 1% of the library).
+
 **Two approaches:**
 
 1. **Nearest neighbors** — given a seed song, find similar tracks by audio feature distance. This answers: *"I like this song, what else sounds like it?"*
@@ -52,5 +54,27 @@ The library contained **1,046 unique artists** across 2,309 songs.
 ![Distribution of Song Count by Artist by Playlist](images/song_count_by_artist.png)
 
 *Figure 1: Artist frequency follows a long-tail distribution across all playlists — most artists contribute only 1–2 songs, with a small number contributing 10+.*
+
+### Temporal distribution
+
+The library skews heavily toward 2000s–2010s music, with the 2010s containing the most songs.
+
+| Decade | Songs |
+|--------|-------|
+| 1960s | 14 |
+| 1970s | 52 |
+| 1980s | 90 |
+| 1990s | 137 |
+| 2000s | 654 |
+| 2010s | 904 |
+| 2020s | 458 |
+
+![Song Count by Decade: Genre Playlists](images/song_count_by_decade_genres.png)
+
+*Figure 2: Genre playlist breakdown by decade. Rock dominates pre-2000s; Alternative peaks in the 2010s.*
+
+![Song Count by Decade: Liked Songs](images/song_count_by_decade_liked_songs.png)
+
+*Figure 3: Liked Songs by decade mirrors the overall distribution — peak in 2010s, strong 2000s and 2020s presence.*
 
 ## Discussion 
