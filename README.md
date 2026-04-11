@@ -109,4 +109,22 @@ Spotify's popularity score ranges 0–100, with higher values indicating more re
 
 *Figure 5: Popularity distributions by playlist. Pop and Rock skew higher (peaking ~70), while Alternative has a secondary mode near 0 — likely deeper cuts or older tracks.*
 
+### Feature analysis
+
+![Feature Distributions](images/feature_dist.png)
+
+*Figure 6: Distribution of all audio features. Speech, Live, and Time Signature show low variance (most songs clustered at a single value). Acoustic is heavily right-skewed.*
+
+Based on the distributions, I excluded Speech, Live, and Time Signature from further analysis due to low variance.
+
+![Correlation Matrix of Audio Features](images/corr_matrix.png)
+
+*Figure 7: Correlation matrix of retained features. Energy and Loud (dB) are strongly correlated (0.66), as are Energy and Acoustic (−0.54). Valence and Dance show moderate positive correlation (0.42).*
+
+### PCA
+
+![PCA Variance Explained](images/pca_variance.png)
+
+*Figure 8: PCA variance explained. Six components capture 90% of the variance; PC1 alone accounts for ~28%. PCA was exploratory — clustering used the original features.*
+
 ## Discussion 
